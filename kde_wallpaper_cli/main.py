@@ -38,7 +38,7 @@ def set_wallpaper(p: Path):
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
 
-PARSER = argparse.ArgumentParser(description='Set wallpaper for KDE')
+PARSER = argparse.ArgumentParser(description='Set wallpaper for KDE', epilog="@readwithai 📖 https://readwithai.substack.com/p/my-productivity-tools ⚡️ machine-aided reading ✒️")
 PARSER.add_argument('file')
 
 def main():

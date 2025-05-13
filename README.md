@@ -8,9 +8,9 @@ Set the wallpaper for KDE from the command-line.
 The approach used here was [documented on stackoverflow](https://superuser.com/questions/488232/how-to-set-kde-desktop-wallpaper-from-command-line) and [this blogpost](https://www.gkbrk.com/change-kde-wallpaper-from-the-command-line) by Yaltirakli, which uses the same motivation.
 
 ## Motivation
-It's so silly. It should be easy to set the wallpaper from the command-line. Also, I like to have as little of "my own" configuration as possible and instead push this into open source command-line tools so moving machines is useful.
+It's so silly. It should be easy to set the wallpaper from the command-line. But in KDE there is no easy way to do this, instead you have to send a dbus message which runs a script which configures the desktop. I'm not going to remember this, and so I'd need to put this in a script. Also, I like to have as little of "my own" configuration as possible and instead push this into open source command-line tools so moving machines is useful. This creates this script, but makes it easy to install this on a new machine and shares this with the world.
 
-Instead, the ["accepted" way of doing this](https://superuser.com/questions/488232/how-to-set-kde-desktop-wallpaper-from-command-line) seems to be send a script to KDE's plasmashell to update the wallpaper for each desktop.
+The ["accepted" way of doing this](https://superuser.com/questions/488232/how-to-set-kde-desktop-wallpaper-from-command-line) seems to be send a script to KDE's plasmashell to update the wallpaper for each desktop.
 
 ## Alternatives and prior work
 I tried [superpaper](https://github.com/hhannine/superpaper) but this did not work with [pipx](https://github.com/hhannine/superpaper/issues/142) without manual tweaks.
@@ -27,3 +27,5 @@ I also create a [stream of tools](https://readwithai.substack.com/p/my-productiv
 
 I write about lots of things - including tools like this - on [X](https://x.com/readwithai).
 My [blog](https://readwithai.substack.com/) is more about reading and research and agency.
+
+[![@readwithai logo](./logo.png)](https://readwithai.substack.com/)
