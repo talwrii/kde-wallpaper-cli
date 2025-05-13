@@ -26,6 +26,9 @@ def set_wallpaper(p: Path):
         prog = "qdbus5"
     elif shutil.which("qdbus"):
         prog = "qdbus"
+    else:
+        raise Exception('Could not find dbus program')
+
 
     cmd = [
         prog,

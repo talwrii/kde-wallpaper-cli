@@ -4,6 +4,8 @@
 
 Set the wallpaper for KDE from the command-line.
 
+**Note: New versions of KDE have a command-line tool plasma-apply-wallpaper to do this**
+
 ## Attribution
 The approach used here was [documented on stackoverflow](https://superuser.com/questions/488232/how-to-set-kde-desktop-wallpaper-from-command-line) and [this blogpost](https://www.gkbrk.com/change-kde-wallpaper-from-the-command-line) by Yaltirakli, which uses the same motivation.
 
